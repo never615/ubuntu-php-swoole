@@ -78,5 +78,5 @@ RUN pecl install mongodb
 #    && adduser -S -D -H -u $UID -h /var/cache/nginx -s /sbin/nologin -G nginx -g nginx nginx || true
 
 ## php config
-COPY ./laradock/laravels-base/php.ini ${php_vars}
+COPY ./php.ini ${php_vars}
 
